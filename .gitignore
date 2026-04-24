@@ -5,3 +5,4 @@ __pycache__/
 *.log
 .env
 .ipynb_checkpoints/
+data/raw/
