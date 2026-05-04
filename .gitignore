@@ -1,8 +1,30 @@
-venv/
-env/
+# Python
 __pycache__/
-*.parquet
-*.log
+*.pyc
+*.pyo
+*.pyd
 .env
+
+# Jupyter Notebook
 .ipynb_checkpoints/
-data/raw/
+
+# Data files (IMPORTANT)
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual env
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
